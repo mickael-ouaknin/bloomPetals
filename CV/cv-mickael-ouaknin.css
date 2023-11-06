@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#cv {
+    margin: auto;
+    width: 50%;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+#personal-info h1 {
+    color: blue;
+}
+
+#education, #work-experience {
+    background-color: #333333;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 1.6;
+}
+h1, h2 {
+    color: #446688;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #a19686;
+    padding: 10px;
+    background-color: #a19686;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #a19686;
+    color: #fff;
+}
+
+/* Ajoute un style aux listes */
+ul {
+    list-style-type: none; /* supprime les puces */
+}
+
+ul li {
+    display: inline-block; /* affiche les éléments de la liste côte à côte */
+    margin-right: 10px; /* ajoute une marge à droite de chaque élément de la liste */
+}
+
+/* Ajoute un style aux images */
+img {
+    width: 50px; /* définit la largeur des images */
+}
+/* Animation pour faire tourner un élément */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animation pour faire clignoter un élément */
+@keyframes clignotement {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Appliquer les animations aux éléments */
+#personal-info h1 {
+    animation: rotation 5s infinite linear;
+}
+
+.section {
+    animation: clignotement 2s infinite ease-in-out;
+}
+/* Animation pour faire grossir et rétrécir un élément */
+@keyframes pulsation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Animation pour faire glisser un élément de gauche à droite */
+@keyframes glissement {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+}
+
+/* Appliquer les animations aux éléments */
+#personal-info h1 {
+    animation: pulsation 2s infinite ease-in-out;
+}
+
+.section {
+    animation: glissement 2s infinite ease-in-out;
+}
+
+h1 {
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; 
+}
+
+p {
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center; 
+}
+
+a {
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
